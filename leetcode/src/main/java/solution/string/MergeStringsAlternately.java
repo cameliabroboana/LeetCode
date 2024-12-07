@@ -1,4 +1,4 @@
-package solution;
+package solution.string;
 
 /*
     1768. Merge Strings Alternately

@@ -1,4 +1,4 @@
-package solution;
+package solution.string;
 
 /*
     389. Find the Difference

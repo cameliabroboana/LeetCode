@@ -2,6 +2,7 @@ package solution;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import solution.array.TwoSum;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

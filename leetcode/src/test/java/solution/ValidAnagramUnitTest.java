@@ -2,9 +2,9 @@ package solution;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import solution.string.ValidAnagram;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.testng.Assert.*;
 
 public class ValidAnagramUnitTest {
 

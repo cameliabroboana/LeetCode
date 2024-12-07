@@ -2,6 +2,7 @@ package solution;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import solution.string.FindIndexFirstOccurrenceString;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

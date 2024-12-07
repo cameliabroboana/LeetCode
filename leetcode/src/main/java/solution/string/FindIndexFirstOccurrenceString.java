@@ -1,4 +1,4 @@
-package solution;
+package solution.string;
 
 /*
     28. Find the Index of the First Occurrence in a String
