@@ -10,7 +10,7 @@ import java.util.HashMap;
     You can return the answer in any order.
 */
 
-class TwoSum {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         
