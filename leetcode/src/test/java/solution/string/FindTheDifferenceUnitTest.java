@@ -1,8 +1,7 @@
-package solution;
+package solution.string;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import solution.string.FindTheDifference;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
