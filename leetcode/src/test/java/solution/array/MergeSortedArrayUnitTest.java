@@ -7,6 +7,7 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
+import static solution.util.TestUtils.convertToIntArray;
 
 public class MergeSortedArrayUnitTest {
 
@@ -40,9 +41,5 @@ public class MergeSortedArrayUnitTest {
                 {asList(1), 1, asList(), 0, asList(1)},
                 {asList(0), 0, asList(1), 1, asList(1)}
         };
-    }
-
-    private int[] convertToIntArray(List<Integer> list) {
-        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }

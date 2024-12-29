@@ -3,10 +3,9 @@ package solution.array;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
+import static solution.util.TestUtils.convertToIntArray;
 
 public class RemoveElementUnitTest {
 
@@ -34,9 +33,5 @@ public class RemoveElementUnitTest {
                 {convertToIntArray(asList(1, 2, 3, 4)), 2, 3},
                 {convertToIntArray(asList(3, 2, 2, 3)), 3, 2}
         };
-    }
-
-    private int[] convertToIntArray(List<Integer> list) {
-        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
