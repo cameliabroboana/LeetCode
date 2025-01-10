@@ -23,6 +23,9 @@ public class MajorityElement {
                     max = oldValue;
                     key = num;
                 }
+                if (max > nums.length / 2) {
+                    return key;
+                }
             }
         }
 
